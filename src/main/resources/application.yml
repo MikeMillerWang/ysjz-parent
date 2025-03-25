@@ -1,0 +1,9 @@
+server:
+  port: 8181
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://mysql.dev.office.totodi.com:3306/ttd_disclosure?useSSL=false&serverTimezone=UTC
+    username: root
+    password: shulaibao
