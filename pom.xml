@@ -57,6 +57,12 @@
             <version>1.18.22</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.cp.wx</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.9.0</version>
+        </dependency>
+
     </dependencies>
 
     <properties>
