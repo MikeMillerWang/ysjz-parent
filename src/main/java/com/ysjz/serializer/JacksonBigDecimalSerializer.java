@@ -11,7 +11,7 @@ import java.math.RoundingMode;
 /**
  * jackson 序列化 BigDecimal
  */
-public class BigDecimalSerializer extends JsonSerializer<BigDecimal> {
+public class JacksonBigDecimalSerializer extends JsonSerializer<BigDecimal> {
 
     @Override
     public void serialize(BigDecimal value, JsonGenerator jsonGenerator, SerializerProvider serializerProvider) throws IOException {
